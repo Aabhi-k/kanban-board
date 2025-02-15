@@ -3,7 +3,6 @@
 # Kanban Board
 
 A lightweight and intuitive Kanban board application to help you visually manage your tasks and projects. This project provides a clean, browser-based interface for organizing your workflow using columns and cards.
-![image](https://github.com/user-attachments/assets/8e7821b2-1221-4cfc-a8cb-a28d58474347)
 ![image](https://github.com/user-attachments/assets/7acfdddf-4596-42f0-8a1e-da4f9649ba0e)
 ![working_lane](https://github.com/user-attachments/assets/4ace154c-f7d0-460d-8679-4b579e081228)
 
