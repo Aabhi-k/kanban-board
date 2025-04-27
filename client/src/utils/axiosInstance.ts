@@ -2,11 +2,13 @@ import axios from "axios";
 import store from "./store";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:8080/api/v1",
+  baseURL: process.env.REACT_APP_API_URL,
   headers: {
     "Content-Type": "application/json",
   },
 });
+
+console.log(process.env.REACT_APP_API_URL);
 axiosInstance.interceptors.request.use(
   (config) => {
     const token = store.getState().auth.token;
